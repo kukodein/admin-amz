@@ -1317,6 +1317,7 @@ body {
 
 
 /* AMZ */
+
 .navbar-brand{
 	padding-top: 0px !important;
 	padding-left: 8px;
@@ -1328,5 +1329,21 @@ a {text-decoration:none;}
 .content-header-amz{padding:16.5px 25px;}
 #nav-toggler-amz.navbar-toggler{
 	padding: 0px;
-	border-radius: 50px;
-}
+	border-radius: 4px;
+	font-size: 14px; 
+	height: 32px;
+	width: 32px;}
+	#nav-toggler-amz.navbar-toggler:focus {
+		background-color: #e9ebf0;
+		color: #627293; 
+		box-shadow: unset;}
+	#nav-toggler-amz.navbar-toggler svg{
+		height:20px;
+		width:20px;
+	}
+#navbarNavAltMarkup{
+	border-top: 1px solid #eee;}
+	@media (min-width: 576px) {
+		#navbarNavAltMarkup{
+			border: none; }
+	}
