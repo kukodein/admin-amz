@@ -1326,7 +1326,10 @@ body {
 }
 .navbar-brand:hover{background-color:#ccc;}
 a {text-decoration:none;}
+		.content-header-amz{padding:16.5px 20px;}
+	@media (min-width: 576px) {
 .content-header-amz{padding:16.5px 25px;}
+	}
 #nav-toggler-amz.navbar-toggler{
 	padding: 0px;
 	border-radius: 4px;
